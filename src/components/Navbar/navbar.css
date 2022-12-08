@@ -31,14 +31,18 @@
   transition: transform 250ms;
 }
 .navbar-prf-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
   border: 4px solid rgb(255, 255, 255);
   width: 70px;
   height: 70px;
   border-radius: 50px;
-  background-image: url("../../img/286520530_455085353234988_4407811857671435590_n.jpg");
+  /* background-image: url("../../img/286520530_455085353234988_4407811857671435590_n.jpg");
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center; */
 }
 .navbar-prf-name{
   text-align: center;
@@ -52,7 +56,6 @@
   width: 40%;
   background: rgba(255, 255, 255, 0.1);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.17);
-
   backdrop-filter: blur(3.5px);
   -webkit-backdrop-filter: blur(3.5px);
   border-radius: 20px;

@@ -3,6 +3,6 @@ import './projects.css'
 
 export default function projects() {
   return (
-    <div>projects</div>
+    <div className='projects-container'>projects</div>
   )
 }

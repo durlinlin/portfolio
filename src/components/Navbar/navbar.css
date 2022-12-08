@@ -9,7 +9,7 @@
   height: 180px;
   /* margin-left: 20px;
   margin-right: -20px; */
-  border: 1px solid red;
+  /* border: 1px solid red; */
   font-family: 'Silkscreen', cursive;
   color: white;
 }
@@ -39,6 +39,9 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+}
+.navbar-prf-name{
+  text-align: center;
 }
 .navbar-icons{
   display: flex;
@@ -78,10 +81,21 @@
   cursor: pointer;
 }
 @media (max-width: 600px){
+
   .navbar-prf-icon{
     width: 90px;
+    margin-left: 5px;
+  }
+  .navbar-prf-name{
+    font-size: 13px;
+    justify-content: center;
   }
   .navbar-icons{
-    width: 200px;
+    width: 270px;
+    margin-right: 5px;
+  }
+  .tab{
+    width: 75px;
+    font-size: 13px;
   }
 }

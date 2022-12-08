@@ -8,9 +8,14 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Routes>
-        <Route path='/projects' element={<projects />} />
-      </Routes>
+      <div className='content-container'>
+        <div className='content-box'>
+        <Routes>
+          <Route path='/projects' element={<projects />} />
+          
+          </Routes>
+        </div>
+      </div>
     </div>
   );
 }

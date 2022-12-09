@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import { BsGithub, BsLinkedin } from "react-icons/bs";
+import { BsGithub, BsLinkedin, BsFillEnvelopeFill } from "react-icons/bs";
 
 export default function About() {
   return (
@@ -14,7 +14,7 @@ export default function About() {
       <div className='contact'>
         <div className='contact-title'>Contact Me</div>
         <div className='contact-content'>
-          linlin.lam01@gmail.com
+          <span><BsFillEnvelopeFill /> linlin.lam01@gmail.com</span>
           <a href='https://github.com/durlinlin' target="_blank" style={{ textDecoration: 'none', color: 'white' }}><BsGithub style={{color: 'black'}} /> GitHub</a>
           <a href='https://www.linkedin.com/in/linlinlam' target="_blank" style={{ textDecoration: 'none', color: 'white'}}><BsLinkedin style={{color: 'blue'}} /> LinkedIn</a>
         </div>

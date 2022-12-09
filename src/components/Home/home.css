@@ -10,3 +10,14 @@
 .home-name{
   font-size: 70px;
 }
+.home-descrp{
+  margin-top: 8px;
+}
+@media (max-width: 600px){
+  .home-name{
+    font-size: 45px;
+  }
+  .home-container{
+    text-align: center;
+  }
+}

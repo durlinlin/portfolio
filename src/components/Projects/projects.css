@@ -1,0 +1,35 @@
+.projects-container{
+  display: flex;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 100%;
+}
+.project{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Silkscreen', cursive;
+  color: white;
+  font-size: 20px;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+.project > img{
+  height: 200px;
+  width: 200px;
+  object-fit: contain;
+}
+.project > a{
+  font-size: 17px;
+}
+@media (max-width: 600px){
+  .projects-container{
+    overflow: scroll;
+    display: block;
+  }
+  .project{
+    height: 90%;
+  }
+}

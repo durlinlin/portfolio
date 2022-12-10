@@ -8,7 +8,7 @@ export default function About() {
       <div className='about'>
         <div className='about-title'>Who am I?</div>
         <div className='about-content'>
-        I am a Pharmacist turned Software Engineer, who takes pride in serving the community and the needs of others. As a front line medical professional, I am well versed in performing under pressure as well as thinking on my feet. Being involved in a fast-paced environment allowed me to sharpen my skills as a team leader and has taught me how to effectively delegate tasks in order to improve work-flow efficiency. Oftentimes,  I would perform a collaborative effort with other healthcare professionals to discuss and provide an optimal plan for a patient's wellbeing. These experiences have enabled me to become a better team player as I acquainted myself in an agile work environment with tight deadlines.
+        I am a Pharmacist turned Software Engineer based in New York City. I take pride in my detail orientated nature. I am also passionate about learning and gaining more skills and being able to utilize them to improve efficiency on an output matter.
         </div>
       </div>
       <div className='contact'>

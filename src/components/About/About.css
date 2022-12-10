@@ -66,9 +66,10 @@
     overflow: scroll;
   }
   .about{
-    height: 100%;
+    padding-top: 5%;
+    height: 60%;
     width: 90%;
-    gap: 5%;
+    gap: 10%;
   }
   .contact{
     margin-top: 70px;
